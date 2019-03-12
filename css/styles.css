@@ -1,0 +1,57 @@
+.form {
+    max-width: 50rem;
+    margin: auto;
+}
+
+.wrap {
+    background-color: #F5F5F5;
+}
+
+label {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    color: black;
+    vertical-align: middle;
+}
+
+.inputbox {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#message {
+    height: 5rem;
+}
+
+legend {
+    padding: 10px;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    color: black;
+    background-color: #F5F5F5;
+    border: 2px solid #DDD;
+    background-color: white;
+}
+
+#collect {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    color: white;
+    background-color: #6495ed;
+    border-style: none;
+    border-radius: 5px;
+    width: 25rem;
+    cursor: pointer;
+}
+
+@media (min-width: 25rem) {
+    .bx {
+        display: inline-block;
+        float: left;
+        width: 47%;
+        margin-right: 3%;
+    }
+    
+}
